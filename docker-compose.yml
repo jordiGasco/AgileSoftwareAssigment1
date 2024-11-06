@@ -28,4 +28,8 @@ mongodb:
       - MONGO_INITDB_ROOT_PASSWORD=secret
     volumes:
       - mongo_data:/data/db
+
+redis:
+    image: redis:alpine
+    
          
